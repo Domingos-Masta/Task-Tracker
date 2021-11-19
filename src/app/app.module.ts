@@ -9,10 +9,11 @@ import { TaskDetailsComponent } from './pages/task-details/task-details.componen
 import { ProjectDetailsComponent } from './pages/project-details/project-details.component';
 import { ProjectListComponent } from './pages/project-list/project-list.component';
 import { TeamsListComponent } from './pages/teams-list/teams-list.component';
-import { TaskCrudFormComponent } from './components/task-crud-form/task-crud-form.component';
-import { TeamCrudFormComponent } from './components/team-crud-form/team-crud-form.component';
-import { ProjectCrudFormComponent } from './components/project-crud-form/project-crud-form.component';
-import { ActionsCrudFormComponent } from './components/actions-crud-form/actions-crud-form.component';
+import { ActionsCrudFormComponent } from './components/crud-forms/actions-crud-form/actions-crud-form.component';
+import { TaskCrudFormComponent } from './components/crud-forms/task-crud-form/task-crud-form.component';
+import { TeamCrudFormComponent } from './components/crud-forms/team-crud-form/team-crud-form.component';
+import { ProjectCrudFormComponent } from './components/crud-forms/project-crud-form/project-crud-form.component';
+import { CardComponent } from './components/shared/card/card.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ActionsCrudFormComponent } from './components/actions-crud-form/actions
     TaskCrudFormComponent,
     TeamCrudFormComponent,
     ProjectCrudFormComponent,
-    ActionsCrudFormComponent
+    ActionsCrudFormComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
